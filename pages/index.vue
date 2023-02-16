@@ -1,9 +1,13 @@
-<script setup lang="ts">
-import TheBigBanner from "~~/components/complex/TheBigBanner/TheBigBanner.vue";
-</script>
+<script setup lang="ts"></script>
 
 <template>
-    <TheBigBanner />
+  <ComplexTheBigBanner />
+  <ComplexTheAboutUs />
+  <ComplexTheOffertCarousel />
+  <ComplexTheLastWork />
+  <ComplexTheWhereWeWork />
+  <ComplexTheTestimontialsCompanyCarousel />
+  <ComplexTheTestimontialsTextCarousel />
 </template>
 
 <style scoped></style>
