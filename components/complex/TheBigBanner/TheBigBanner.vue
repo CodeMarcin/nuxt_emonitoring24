@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import TopBannerSVG from "~~/assets/svg/TopBanner.svg";
-import gsap from "gsap";
+import { gsap } from "gsap";
 
 const topBannerRef = ref();
 

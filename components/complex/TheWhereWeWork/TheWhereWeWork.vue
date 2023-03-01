@@ -7,7 +7,7 @@ import { DATA__CITIES } from "./DataWhereWork";
 
 import MapMarkSVG from "~~/assets/svg/MapMark.svg";
 import { ScrollTrigger } from "gsap/all";
-import gsap from "gsap";
+import { gsap } from "gsap";
 
 const headerRef = ref();
 const citiesRef = ref([]);

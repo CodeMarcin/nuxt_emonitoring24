@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ScrollTrigger } from "gsap/all";
-import gsap from "gsap";
+import { gsap } from "gsap";
 
 const { pending, data: serverData } = useLazyAsyncData("realizations", () => $fetch("/api/getRealizationsWithLimit?limit=4"));
 

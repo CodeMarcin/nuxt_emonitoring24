@@ -2,7 +2,7 @@
 import { Carousel, Slide, Pagination } from "vue3-carousel";
 import Card from "~~/components/parts/Card/Card.vue";
 
-import gsap from "gsap";
+import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import { DATA__CARDS } from "./DataOffertCarousel";
 

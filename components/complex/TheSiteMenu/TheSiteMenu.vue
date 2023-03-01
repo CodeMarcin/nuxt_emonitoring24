@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import gsap from "gsap";
+import { gsap } from "gsap";
 import { DATA__MENU_ITEMS } from "./DataSiteMenu";
 
 const debounceReference = ref();

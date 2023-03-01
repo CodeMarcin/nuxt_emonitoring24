@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import AboutUsSVG from "~~/assets/svg/AboutUs.svg";
 import video from "~~/assets/svg/test4.mp4";
-import gsap from "gsap";
+import { gsap } from "gsap";
 
 import { DATA__COUNTERS } from "./DataAboutUs";
 
